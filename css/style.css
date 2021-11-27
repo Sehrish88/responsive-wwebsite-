@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+:root {
+  --primary-color: blueviolet;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -35,8 +40,10 @@ img {
   width: 100%;
 }
 
+/* Navbar Styling */
+
 .navbar {
-  background-color: blueviolet;
+  background-color: var(--primary-color);
   color: #fff;
   height: 70px;
 }
@@ -57,6 +64,16 @@ img {
 .navbar .flex {
   justify-content: space-between;
 }
+
+/* Showcase */
+.showcase {
+  height: 400px;
+  background-color: var(--primary-color);
+  color: #fff;
+  position: relative;
+}
+
+/* Utilities */
 
 .container {
   max-width: 1100px;
