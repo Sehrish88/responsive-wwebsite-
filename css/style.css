@@ -81,6 +81,10 @@ img {
   margin: 20px 0;
 }
 
+.showcase .grid {
+  grid-template-columns: 55% 45%;
+}
+
 /* Utilities */
 
 .container {
