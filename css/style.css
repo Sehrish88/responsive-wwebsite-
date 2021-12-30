@@ -2,6 +2,9 @@
 
 :root {
   --primary-color: blueviolet;
+  --secondary-color: violet;
+  --dark-color: darkblue;
+  --light-color: darkgrey;
 }
 
 * {
