@@ -179,3 +179,8 @@ img {
   text-align: center;
   margin: 18px 10px 40px;
 }
+
+.languages .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
